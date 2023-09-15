@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WebRTC Video Capture</title>
+</head>
+<body>
+    <h1>Video Capture</h1>
+    <video id="video-element" autoplay playsinline></video>
+    <div>
+        <label for="device-list">Select Video Input Device:</label>
+        <select id="device-list"></select>
+    </div>
+    <div>
+        <button id="startWebcam">Start Webcam</button>
+        <button id="startScreenCapture">Start Screen Capture</button>
+    </div>
+    <div>
+        <button id="stopCapture">Stop Capture</button>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
